@@ -1,0 +1,31 @@
+name: Bug report
+description: Installation, datafile or certificate problem
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting, update EVEMon datafiles, close EVEMon and retry with the latest project release.
+  - type: input
+    id: evemon
+    attributes:
+      label: EVEMon version
+      placeholder: "5.0.1"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Installer output / EVEMon diagnostic log
+      render: text
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce

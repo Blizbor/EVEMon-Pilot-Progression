@@ -1,0 +1,22 @@
+name: Certificate / progression proposal
+description: Suggest a grading, skill or documentation change
+title: "[Proposal] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Capability or problem
+      description: Describe what the pilot should be able to do, not only which skill you want changed.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behaviour
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and why it improves SP efficiency or readability
+    validations:
+      required: true

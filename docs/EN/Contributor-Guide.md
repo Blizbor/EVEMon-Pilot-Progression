@@ -1,5 +1,7 @@
 # Contributor guide
 
+The complete binding rules are in [Content guidelines](../CONTENT-GUIDELINES.md).
+
 First describe in plain language what a competence level means. Only then choose skills.
 
 - BASIC should unlock a capability or gameplay area with a low sensible SP cost.

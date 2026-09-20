@@ -1,5 +1,7 @@
 # Zasady dla kontrybutorów
 
+Pełne obowiązujące zasady znajdują się w dokumencie [Zasady tworzenia treści](../CONTENT-GUIDELINES.md).
+
 Najpierw nazwij zwykłym językiem, co oznacza poziom kompetencji. Dopiero potem dobieraj skille.
 
 - BASIC powinien możliwie tanio otwierać możliwość lub obszar gry.

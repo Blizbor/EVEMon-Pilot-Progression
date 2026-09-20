@@ -18,13 +18,13 @@ jobs:
         run: |
           mkdir -p dist
           cd package
-          zip -r ../dist/EvE-Pilot-Progression-EVEMon.zip .
+          zip -r ../dist/EVEMon-Pilot-Progression.zip .
       - uses: actions/upload-artifact@v4
         with:
-          name: EvE-Pilot-Progression-EVEMon-package
-          path: dist/EvE-Pilot-Progression-EVEMon.zip
+          name: EVEMon-Pilot-Progression-package
+          path: dist/EVEMon-Pilot-Progression.zip
       - name: Attach ZIP to GitHub Release
         if: startsWith(github.ref, 'refs/tags/')
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "${{ github.ref_name }}" dist/EvE-Pilot-Progression-EVEMon.zip --generate-notes --title "${{ github.ref_name }}"
+        run: gh release create "${{ github.ref_name }}" dist/EVEMon-Pilot-Progression.zip --generate-notes --title "${{ github.ref_name }}"

@@ -10,4 +10,4 @@
 
 **Support URL**
 
-https://github.com/Blizbor/EvE-Pilot-Progression/issues
+https://github.com/Blizbor/EVEMon-Pilot-Progression/issues

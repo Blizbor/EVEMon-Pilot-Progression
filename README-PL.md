@@ -1,10 +1,10 @@
-# EvE Pilot Progression
+# EVEMon Pilot Progression
 
 [🇵🇱 Polski](README-PL.md) | [🇬🇧 English](README-EN.md)
 
-**EvE Pilot Progression** dodaje do EVEMon czytelną mapę rozwoju postaci. Projekt służy zarówno nowemu pilotowi, który chce widzieć kolejne praktyczne progi kompetencji, jak i weteranowi z dziesiątkami milionów SP, który chce szybko znaleźć nierówne supporty i dawno pozostawione luki.
+**EVEMon Pilot Progression** dodaje do EVEMon czytelną mapę rozwoju postaci. Projekt służy zarówno nowemu pilotowi, który chce widzieć kolejne praktyczne progi kompetencji, jak i weteranowi z dziesiątkami milionów SP, który chce szybko znaleźć nierówne supporty i dawno pozostawione luki.
 
-Nie jest to zamiennik dla skillplanów. **EvE Modular Skillplans** mówi *co trenować pod konkretną rolę lub statek*. **EvE Pilot Progression** pokazuje w Certificate Browser *gdzie pilot jest obecnie*.
+Nie jest to zamiennik dla skillplanów. **EvE Modular Skillplans** mówi *co trenować pod konkretną rolę lub statek*. **EVEMon Pilot Progression** pokazuje w Certificate Browser *gdzie pilot jest obecnie*.
 
 ## Najważniejsze: kolejność instalacji
 
@@ -16,11 +16,11 @@ Nie jest to zamiennik dla skillplanów. **EvE Modular Skillplans** mówi *co tre
 6. Rozpakuj ZIP i uruchom PowerShell w katalogu paczki:
    ```powershell
    Set-ExecutionPolicy -Scope Process Bypass
-   .\Install-EvE-Pilot-Progression.ps1
+   .\Install-EVEMon-Pilot-Progression.ps1
    ```
-7. Uruchom EVEMon → **Certificate Browser → EvE Pilot Progression**.
+7. Uruchom EVEMon → **Certificate Browser → EVEMon Pilot Progression**.
 
-> Aktualizacja datafiles przez EVEMon może zastąpić zmodyfikowany plik certyfikatów. Po takiej aktualizacji po prostu uruchom instalator EvE Pilot Progression ponownie.
+> Aktualizacja datafiles przez EVEMon może zastąpić zmodyfikowany plik certyfikatów. Po takiej aktualizacji po prostu uruchom instalator EVEMon Pilot Progression ponownie.
 
 ## Zgodny EVEMon
 
@@ -29,14 +29,14 @@ Projekt jest przygotowany i testowany dla **EVEMon 5.0.1** z repo https://github
 ## Trzy powiązane projekty
 
 - **EvE Modular Skillplans** — https://github.com/Blizbor/EvE-Modular-Skillplans — role/task-first skillplany i training paths.
-- **EvE Pilot Progression** — https://github.com/Blizbor/EvE-Pilot-Progression — szeroka diagnostyka rozwoju pilota w EVEMon.
+- **EVEMon Pilot Progression** — https://github.com/Blizbor/EVEMon-Pilot-Progression — szeroka diagnostyka rozwoju pilota w EVEMon.
 - **EVEMon Certificates Enhanced** — https://github.com/Blizbor/EVEMon-Certificates-Enhanced — większa rozdzielczość domyślnych certyfikatów broni, dronów i tanku.
 
 Pilot Progression i Certificates Enhanced mogą być używane razem. Pierwszy projekt daje szeroką mapę kompetencji; drugi doprecyzowuje jakość konkretnych systemów walki.
 
 ## Pobieranie paczki
 
-Nie kopiuj pojedynczych plików z repo. Wejdź w **Releases** i pobierz gotowy plik `EvE-Pilot-Progression-EVEMon.zip`.
+Nie kopiuj pojedynczych plików z repo. Wejdź w **Releases** i pobierz gotowy plik `EVEMon-Pilot-Progression.zip`.
 
 Repo zawiera katalog `package/` oraz workflow budujący dokładnie tę paczkę.
 
@@ -53,7 +53,7 @@ Repo zawiera katalog `package/` oraz workflow budujący dokładnie tę paczkę.
 
 ## Kontakt
 
-Problemy z instalacją, błędy definicji, propozycje zmian i pytania projektowe zgłaszaj przez **Issue tracker**: https://github.com/Blizbor/EvE-Pilot-Progression/issues
+Problemy z instalacją, błędy definicji, propozycje zmian i pytania projektowe zgłaszaj przez **Issue tracker**: https://github.com/Blizbor/EVEMon-Pilot-Progression/issues
 
 <p align="center">
   <img src="https://images.evetech.net/characters/91331899/portrait?size=256" width="144" alt="Gazzine TunakTun portrait">

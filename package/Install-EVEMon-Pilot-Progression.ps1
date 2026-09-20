@@ -2,7 +2,7 @@
 param(
     [string]$CertificatesPath,
     [string]$SkillsPath,
-    [string]$DefinitionsPath = (Join-Path $PSScriptRoot 'EvE-Pilot-Progression.definitions.json')
+    [string]$DefinitionsPath = (Join-Path $PSScriptRoot 'EVEMon-Pilot-Progression.definitions.json')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -10,7 +10,8 @@ Set-StrictMode -Version 2.0
 
 $CertificateFileName = 'eve-certificates-en-US.xml.gzip'
 $SkillsFileName       = 'eve-skills-en-US.xml.gzip'
-$ProjectName          = 'EvE Pilot Progression'
+$ProjectName          = 'EVEMon Pilot Progression'
+$LegacyProjectName    = 'EvE Pilot Progression'
 $LegacyGmhGroupName   = 'GMH - Generic Must Have'
 $LegacyCharProgression = 'Char Progression'
 $OurGroupId           = 900000000
@@ -189,7 +190,7 @@ function Test-IsOurCertificateGroup {
     $name=[string]$Group.GetAttribute('name')
     $idText=[string]$Group.GetAttribute('id')
     $id=0L; [void][long]::TryParse($idText,[ref]$id)
-    if ($name -eq $ProjectName -or $name -eq $LegacyGmhGroupName -or $name -eq $LegacyCharProgression -or $id -eq $OurGroupId) { return $true }
+    if ($name -eq $ProjectName -or $name -eq $LegacyProjectName -or $name -eq $LegacyGmhGroupName -or $name -eq $LegacyCharProgression -or $id -eq $OurGroupId) { return $true }
     foreach ($cl in @($Group.SelectNodes('certificateClass'))) {
         $v=0L
         if ([long]::TryParse([string]$cl.GetAttribute('id'),[ref]$v) -and $v -ge $OurClassIdMin -and $v -le $OurClassIdMax) { return $true }
@@ -298,14 +299,14 @@ $expectedCerts=[int]$definition.certificate_count
 $expectedGrades=[int]$definition.evemon_grade_count
 $expectedRequires=[int]$definition.evemon_requires_count
 $timestamp=Get-Date -Format 'yyyyMMdd-HHmmss'
-$certBackup="$certPath.backup-pilot-progression-$timestamp"
-$certTemp="$certPath.pilot-progression-temp"
+$certBackup="$certPath.backup-evemon-pilot-progression-$timestamp"
+$certTemp="$certPath.evemon-pilot-progression-temp"
 try {
     if (Test-Path -LiteralPath $certTemp) { Remove-Item -LiteralPath $certTemp -Force }
     Write-GZipXml -Xml $certXml -Path $certTemp
     [xml]$verify=Read-GZipText -Path $certTemp
     $vg=$verify.SelectSingleNode("/certificatesDatafile/certificateGroup[@id='$OurGroupId' and @name='$ProjectName']")
-    if (-not $vg) { throw 'Walidacja: brak nowej grupy EvE Pilot Progression.' }
+    if (-not $vg) { throw 'Walidacja: brak nowej grupy EVEMon Pilot Progression.' }
     $classes=@($vg.SelectNodes('certificateClass'))
     $requires=@($vg.SelectNodes('certificateClass/certificate/requires'))
     $gradeKeys=@{}
@@ -330,14 +331,14 @@ finally {
 }
 
 Write-Host ''
-Write-Host 'OK - zainstalowano EvE Pilot Progression dla EVEMon 5.x.' -ForegroundColor Green
+Write-Host 'OK - zainstalowano EVEMon Pilot Progression dla EVEMon 5.x.' -ForegroundColor Green
 Write-Host "Usuniete stare grupy: $($removed.Count)"
 foreach ($x in $removed) { Write-Host "  - $x" }
 Write-Host "Backup certyfikatow: $certBackup"
-Write-Host "Skills datafile:      NIE MODYFIKOWANY przez instalacje EvE Pilot Progression"
+Write-Host "Skills datafile:      NIE MODYFIKOWANY przez instalacje EVEMon Pilot Progression"
 Write-Host "Certyfikaty:          $expectedCerts"
 Write-Host "Poziomy logiczne:     $($definition.logical_milestone_count) (w tym lokalne drabiny 5-stopniowe)"
 Write-Host "EVEMon grade entries: $expectedGrades (mieszanka realnych poziomow i aliasow zgodnosci)"
 Write-Host "Wymagania EVEMon:     $expectedRequires"
 Write-Host ''
-Write-Host 'Uruchom EVEMon -> Certificate Browser -> EvE Pilot Progression.' -ForegroundColor Cyan
+Write-Host 'Uruchom EVEMon -> Certificate Browser -> EVEMon Pilot Progression.' -ForegroundColor Cyan

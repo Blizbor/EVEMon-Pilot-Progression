@@ -10,4 +10,4 @@ Nie. Jeżeli brakuje skilla, instalator zatrzymuje się i prosi o aktualizację 
 Uruchom instalator ponownie.
 
 ## Gdzie zgłosić problem?
-https://github.com/Blizbor/EvE-Pilot-Progression/issues
+https://github.com/Blizbor/EVEMon-Pilot-Progression/issues

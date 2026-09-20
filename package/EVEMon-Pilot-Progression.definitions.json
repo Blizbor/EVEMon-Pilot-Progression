@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "project": "EvE Pilot Progression",
+  "project": "EVEMon Pilot Progression",
   "group_id": 900000000,
   "source_repository": "https://github.com/Blizbor/EvE-Modular-Skillplans",
   "relationship": "Role/task progression model derived from EvE Modular Skillplans; EVEMon-specific five-grade presentation may add local diagnostic gradation.",
@@ -19,7 +19,7 @@
       "name": "00 CORE - Engineering, Capacitor & Rigging",
       "category": "CORE",
       "source_directory": "plans/00_CORE_-_Engineering_Capacitor_and_Rigging",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -242,7 +242,7 @@
       "name": "01 CORE - Navigation",
       "category": "CORE",
       "source_directory": "plans/01_CORE_-_Navigation",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -445,7 +445,7 @@
       "name": "02 CORE - Targeting",
       "category": "CORE",
       "source_directory": "plans/02_CORE_-_Targeting",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -580,7 +580,7 @@
       "name": "03 CORE - PvP Heat",
       "category": "CORE",
       "source_directory": "plans/03_CORE_-_PvP_Heat",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -663,7 +663,7 @@
       "name": "10 COMBAT - Damage Mods & Weapon Fitting",
       "category": "COMBAT",
       "source_directory": "plans/10_COMBAT_-_Damage_Mods_and_Weapon_Fitting",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -762,7 +762,7 @@
       "name": "21 TANK - Armor Buffer",
       "category": "TANK",
       "source_directory": "plans/21_TANK_-_Armor_Buffer",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -965,7 +965,7 @@
       "name": "22 TANK - Armor Active",
       "category": "TANK",
       "source_directory": "plans/22_TANK_-_Armor_Active",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -1204,7 +1204,7 @@
       "name": "30 TANK - Shield Passive/Buffer",
       "category": "TANK",
       "source_directory": "plans/30_TANK_-_Shield_Passive-Buffer",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -1407,7 +1407,7 @@
       "name": "31 TANK - Shield Active",
       "category": "TANK",
       "source_directory": "plans/31_TANK_-_Shield_Active",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -1470,7 +1470,7 @@
       "name": "50 WEAPON - Turret Support",
       "category": "WEAPON",
       "source_directory": "plans/50_WEAPON_-_Turret_Support",
-      "description": "EvE Pilot Progression local refinement: five visible proficiency levels. Level V requires all Turret Support skills in this certificate at V.",
+      "description": "EVEMon Pilot Progression local refinement: five visible proficiency levels. Level V requires all Turret Support skills in this certificate at V.",
       "grades": [
         {
           "grade": "Basic",
@@ -1627,7 +1627,7 @@
       "name": "51 WEAPON - Hybrid",
       "category": "WEAPON",
       "source_directory": "plans/51_WEAPON_-_Hybrid",
-      "description": "EvE Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
+      "description": "EVEMon Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
       "grades": [
         {
           "grade": "Basic",
@@ -1872,7 +1872,7 @@
       "name": "52 WEAPON - Projectile",
       "category": "WEAPON",
       "source_directory": "plans/52_WEAPON_-_Projectile",
-      "description": "EvE Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
+      "description": "EVEMon Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
       "grades": [
         {
           "grade": "Basic",
@@ -2101,7 +2101,7 @@
       "name": "53 WEAPON - Energy",
       "category": "WEAPON",
       "source_directory": "plans/53_WEAPON_-_Energy",
-      "description": "EvE Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
+      "description": "EVEMon Pilot Progression local five-level weapon-family ladder. Levels II-IV use specialization I only (T2 access); specialization IV and level-V support skills are reserved for Level V. Specific weapon rigging is intentionally not forced to V.",
       "grades": [
         {
           "grade": "Basic",
@@ -2346,7 +2346,7 @@
       "name": "60 WEAPON - Missile Support",
       "category": "WEAPON",
       "source_directory": "plans/60_WEAPON_-_Missile_Support",
-      "description": "EvE Pilot Progression local five-level missile-support ladder. Level I only opens the support toolkit; Level V requires genuine V in all non-rigging missile support skills. Rigging is not forced to V.",
+      "description": "EVEMon Pilot Progression local five-level missile-support ladder. Level I only opens the support toolkit; Level V requires genuine V in all non-rigging missile support skills. Rigging is not forced to V.",
       "grades": [
         {
           "grade": "Basic",
@@ -2567,7 +2567,7 @@
       "name": "61 MISSILE - Rockets & Light",
       "category": "WEAPON",
       "source_directory": "plans/61_MISSILE_-_Rockets_and_Light",
-      "description": "EvE Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
+      "description": "EVEMon Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
       "grades": [
         {
           "grade": "Basic",
@@ -2700,7 +2700,7 @@
       "name": "62 MISSILE - HAM & Heavy",
       "category": "WEAPON",
       "source_directory": "plans/62_MISSILE_-_HAM_and_Heavy",
-      "description": "EvE Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
+      "description": "EVEMon Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
       "grades": [
         {
           "grade": "Basic",
@@ -2853,7 +2853,7 @@
       "name": "63 MISSILE - Torpedo & Cruise",
       "category": "WEAPON",
       "source_directory": "plans/63_MISSILE_-_Torpedo_and_Cruise",
-      "description": "EvE Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
+      "description": "EVEMon Pilot Progression local five-level T2 missile ladder: no specialization at I, specialization I at II, III at III, and IV at IV-V. Level II marks T2 access rather than proficiency.",
       "grades": [
         {
           "grade": "Basic",
@@ -3026,7 +3026,7 @@
       "name": "70 WEAPON - Drone Support",
       "category": "WEAPON",
       "source_directory": "plans/70_WEAPON_-_Drone_Support",
-      "description": "EvE Pilot Progression local five-level drone-support ladder. Level I is intentionally minimal; Level V requires V in all non-rigging drone support skills, while rigging remains below V.",
+      "description": "EVEMon Pilot Progression local five-level drone-support ladder. Level I is intentionally minimal; Level V requires V in all non-rigging drone support skills, while rigging remains below V.",
       "grades": [
         {
           "grade": "Basic",
@@ -3219,7 +3219,7 @@
       "name": "71 DRONES - Light T2",
       "category": "WEAPON",
       "source_directory": "plans/71_DRONES_-_Light_T2",
-      "description": "EvE Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
+      "description": "EVEMon Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
       "grades": [
         {
           "grade": "Basic",
@@ -3364,7 +3364,7 @@
       "name": "72 DRONES - Medium T2",
       "category": "WEAPON",
       "source_directory": "plans/72_DRONES_-_Medium_T2",
-      "description": "EvE Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
+      "description": "EVEMon Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
       "grades": [
         {
           "grade": "Basic",
@@ -3509,7 +3509,7 @@
       "name": "73 DRONES - Heavy & Sentry",
       "category": "WEAPON",
       "source_directory": "plans/73_DRONES_-_Heavy_and_Sentry",
-      "description": "EvE Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
+      "description": "EVEMon Pilot Progression local five-level T2 drone ladder: no racial specialization at I, specialization I at II, III at III, and IV at IV-V. Levels IV-V intentionally share specialization IV; broader drone-support depth is tracked by plan 70.",
       "grades": [
         {
           "grade": "Basic",
@@ -3714,7 +3714,7 @@
       "name": "80 SCOUT - Signature, Combat & Covert",
       "category": "SCOUT",
       "source_directory": "plans/80_SCOUT_-_Signature_Combat_and_Covert",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -3901,7 +3901,7 @@
       "name": "83 CYNO - Industrial, Hard & Covert",
       "category": "CYNO",
       "source_directory": "plans/83_CYNO_-_Industrial_Hard_and_Covert",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -3984,7 +3984,7 @@
       "name": "90 HULL - Frigate - Amarr",
       "category": "HULL",
       "source_directory": "plans/90_HULL_-_Frigate_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4067,7 +4067,7 @@
       "name": "90 HULL - Frigate - Caldari",
       "category": "HULL",
       "source_directory": "plans/90_HULL_-_Frigate_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4150,7 +4150,7 @@
       "name": "90 HULL - Frigate - Gallente",
       "category": "HULL",
       "source_directory": "plans/90_HULL_-_Frigate_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4233,7 +4233,7 @@
       "name": "90 HULL - Frigate - Minmatar",
       "category": "HULL",
       "source_directory": "plans/90_HULL_-_Frigate_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4316,7 +4316,7 @@
       "name": "91 HULL - Destroyer - Amarr",
       "category": "HULL",
       "source_directory": "plans/91_HULL_-_Destroyer_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4431,7 +4431,7 @@
       "name": "91 HULL - Destroyer - Caldari",
       "category": "HULL",
       "source_directory": "plans/91_HULL_-_Destroyer_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4546,7 +4546,7 @@
       "name": "91 HULL - Destroyer - Gallente",
       "category": "HULL",
       "source_directory": "plans/91_HULL_-_Destroyer_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4661,7 +4661,7 @@
       "name": "91 HULL - Destroyer - Minmatar",
       "category": "HULL",
       "source_directory": "plans/91_HULL_-_Destroyer_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4776,7 +4776,7 @@
       "name": "92 HULL - Cruiser - Amarr",
       "category": "HULL",
       "source_directory": "plans/92_HULL_-_Cruiser_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -4899,7 +4899,7 @@
       "name": "92 HULL - Cruiser - Caldari",
       "category": "HULL",
       "source_directory": "plans/92_HULL_-_Cruiser_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5022,7 +5022,7 @@
       "name": "92 HULL - Cruiser - Gallente",
       "category": "HULL",
       "source_directory": "plans/92_HULL_-_Cruiser_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5145,7 +5145,7 @@
       "name": "92 HULL - Cruiser - Minmatar",
       "category": "HULL",
       "source_directory": "plans/92_HULL_-_Cruiser_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5268,7 +5268,7 @@
       "name": "93 HULL - Battlecruiser - Amarr",
       "category": "HULL",
       "source_directory": "plans/93_HULL_-_Battlecruiser_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5411,7 +5411,7 @@
       "name": "93 HULL - Battlecruiser - Caldari",
       "category": "HULL",
       "source_directory": "plans/93_HULL_-_Battlecruiser_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5554,7 +5554,7 @@
       "name": "93 HULL - Battlecruiser - Gallente",
       "category": "HULL",
       "source_directory": "plans/93_HULL_-_Battlecruiser_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5697,7 +5697,7 @@
       "name": "93 HULL - Battlecruiser - Minmatar",
       "category": "HULL",
       "source_directory": "plans/93_HULL_-_Battlecruiser_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -5840,7 +5840,7 @@
       "name": "94 HULL - Battleship - Amarr",
       "category": "HULL",
       "source_directory": "plans/94_HULL_-_Battleship_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6003,7 +6003,7 @@
       "name": "94 HULL - Battleship - Caldari",
       "category": "HULL",
       "source_directory": "plans/94_HULL_-_Battleship_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6166,7 +6166,7 @@
       "name": "94 HULL - Battleship - Gallente",
       "category": "HULL",
       "source_directory": "plans/94_HULL_-_Battleship_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6329,7 +6329,7 @@
       "name": "94 HULL - Battleship - Minmatar",
       "category": "HULL",
       "source_directory": "plans/94_HULL_-_Battleship_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6492,7 +6492,7 @@
       "name": "95 HULL - Freighter - Amarr",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Freighter_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6615,7 +6615,7 @@
       "name": "95 HULL - Freighter - Caldari",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Freighter_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6738,7 +6738,7 @@
       "name": "95 HULL - Freighter - Gallente",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Freighter_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6861,7 +6861,7 @@
       "name": "95 HULL - Freighter - Minmatar",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Freighter_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -6984,7 +6984,7 @@
       "name": "95 HULL - Hauler - Amarr",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Hauler_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7067,7 +7067,7 @@
       "name": "95 HULL - Hauler - Caldari",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Hauler_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7150,7 +7150,7 @@
       "name": "95 HULL - Hauler - Gallente",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Hauler_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7233,7 +7233,7 @@
       "name": "95 HULL - Hauler - Minmatar",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Hauler_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7316,7 +7316,7 @@
       "name": "95 HULL - Jump Freighter",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Jump_Freighter",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7555,7 +7555,7 @@
       "name": "95 HULL - Transport Ships",
       "category": "HULL",
       "source_directory": "plans/95_HULL_-_Transport_Ships",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7658,7 +7658,7 @@
       "name": "96 HULL - Capital Industrial",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Capital_Industrial",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -7961,7 +7961,7 @@
       "name": "96 HULL - Exhumers",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Exhumers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8124,7 +8124,7 @@
       "name": "96 HULL - Expedition Frigates",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Expedition_Frigates",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8307,7 +8307,7 @@
       "name": "96 HULL - Industrial Command Ships",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Industrial_Command_Ships",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8470,7 +8470,7 @@
       "name": "96 HULL - Mining Barge",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Mining_Barge",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8633,7 +8633,7 @@
       "name": "96 HULL - Mining Destroyer",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Mining_Destroyer",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8756,7 +8756,7 @@
       "name": "96 HULL - Mining Frigate",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_Mining_Frigate",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8839,7 +8839,7 @@
       "name": "96 HULL - ORE Freighter",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_ORE_Freighter",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -8962,7 +8962,7 @@
       "name": "96 HULL - ORE Hauler",
       "category": "HULL",
       "source_directory": "plans/96_HULL_-_ORE_Hauler",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9045,7 +9045,7 @@
       "name": "97 HULL - Assault Frigates",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Assault_Frigates",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9168,7 +9168,7 @@
       "name": "97 HULL - Black Ops",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Black_Ops",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9391,7 +9391,7 @@
       "name": "97 HULL - Command Destroyers",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Command_Destroyers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9514,7 +9514,7 @@
       "name": "97 HULL - Command Ships",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Command_Ships",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9657,7 +9657,7 @@
       "name": "97 HULL - Electronic Attack Ships",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Electronic_Attack_Ships",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9780,7 +9780,7 @@
       "name": "97 HULL - Heavy Assault Cruisers",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Heavy_Assault_Cruisers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -9983,7 +9983,7 @@
       "name": "97 HULL - Heavy Interdiction Cruisers",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Heavy_Interdiction_Cruisers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10186,7 +10186,7 @@
       "name": "97 HULL - Interceptors",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Interceptors",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10309,7 +10309,7 @@
       "name": "97 HULL - Interdictors",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Interdictors",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10512,7 +10512,7 @@
       "name": "97 HULL - Logistics Cruisers",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Logistics_Cruisers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10635,7 +10635,7 @@
       "name": "97 HULL - Logistics Frigates",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Logistics_Frigates",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10758,7 +10758,7 @@
       "name": "97 HULL - Marauders",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Marauders",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -10961,7 +10961,7 @@
       "name": "97 HULL - Recon Ships",
       "category": "HULL",
       "source_directory": "plans/97_HULL_-_Recon_Ships",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -11144,7 +11144,7 @@
       "name": "98 HULL - Strategic Cruiser - Legion",
       "category": "HULL",
       "source_directory": "plans/98_HULL_-_Strategic_Cruiser_-_Legion",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -11447,7 +11447,7 @@
       "name": "98 HULL - Strategic Cruiser - Loki",
       "category": "HULL",
       "source_directory": "plans/98_HULL_-_Strategic_Cruiser_-_Loki",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -11750,7 +11750,7 @@
       "name": "98 HULL - Strategic Cruiser - Proteus",
       "category": "HULL",
       "source_directory": "plans/98_HULL_-_Strategic_Cruiser_-_Proteus",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -12053,7 +12053,7 @@
       "name": "98 HULL - Strategic Cruiser - Tengu",
       "category": "HULL",
       "source_directory": "plans/98_HULL_-_Strategic_Cruiser_-_Tengu",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -12356,7 +12356,7 @@
       "name": "99 HULL - Carrier - Amarr",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Carrier_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -12659,7 +12659,7 @@
       "name": "99 HULL - Carrier - Caldari",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Carrier_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -12962,7 +12962,7 @@
       "name": "99 HULL - Carrier - Gallente",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Carrier_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -13265,7 +13265,7 @@
       "name": "99 HULL - Carrier - Minmatar",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Carrier_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -13568,7 +13568,7 @@
       "name": "99 HULL - Command Carriers",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Command_Carriers",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -13831,7 +13831,7 @@
       "name": "99 HULL - Dreadnought - Amarr",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Dreadnought_-_Amarr",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -14174,7 +14174,7 @@
       "name": "99 HULL - Dreadnought - Caldari",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Dreadnought_-_Caldari",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -14517,7 +14517,7 @@
       "name": "99 HULL - Dreadnought - Gallente",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Dreadnought_-_Gallente",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -14860,7 +14860,7 @@
       "name": "99 HULL - Dreadnought - Minmatar",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Dreadnought_-_Minmatar",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",
@@ -15203,7 +15203,7 @@
       "name": "99 HULL - Lancer Dreadnoughts",
       "category": "HULL",
       "source_directory": "plans/99_HULL_-_Lancer_Dreadnoughts",
-      "description": "EvE Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
+      "description": "EVEMon Pilot Progression / EvE Modular Skillplans. EVEMon level I=BASIC, II=IMPROVED, III=STANDARD; IV/V mirror STANDARD for Certificate Browser compatibility.",
       "grades": [
         {
           "grade": "Basic",

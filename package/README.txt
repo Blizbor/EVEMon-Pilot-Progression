@@ -1,4 +1,4 @@
-EvE Pilot Progression - EVEMon package
+EVEMon Pilot Progression - EVEMon package
 Author: Gazzine TunakTun
 
 IMPORTANT - FIRST USE
@@ -8,14 +8,14 @@ IMPORTANT - FIRST USE
 4. Close EVEMon completely.
 5. Open PowerShell in this directory and run:
      Set-ExecutionPolicy -Scope Process Bypass
-     .\Install-EvE-Pilot-Progression.ps1
-6. Start EVEMon and open Certificate Browser -> EvE Pilot Progression.
+     .\Install-EVEMon-Pilot-Progression.ps1
+6. Start EVEMon and open Certificate Browser -> EVEMon Pilot Progression.
 
 After EVEMon installs newer datafiles, custom certificate data can be replaced.
 Close EVEMon and run this installer again.
 
 Uninstall:
-     .\Uninstall-EvE-Pilot-Progression.ps1
+     .\Uninstall-EVEMon-Pilot-Progression.ps1
 
 Support / contact:
-https://github.com/Blizbor/EvE-Pilot-Progression/issues
+https://github.com/Blizbor/EVEMon-Pilot-Progression/issues

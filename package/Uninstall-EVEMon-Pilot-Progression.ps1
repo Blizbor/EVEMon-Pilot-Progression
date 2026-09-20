@@ -3,7 +3,8 @@ param([string]$CertificatesPath)
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version 2.0
 $FileName='eve-certificates-en-US.xml.gzip'
-$ProjectName='EvE Pilot Progression'
+$ProjectName='EVEMon Pilot Progression'
+$LegacyProjectName='EvE Pilot Progression'
 $LegacyName='GMH - Generic Must Have'
 $LegacyCharProgression='Char Progression'
 $GroupId=900000000
@@ -37,7 +38,7 @@ function Is-Ours {
     param([System.Xml.XmlElement]$Group)
     $n=[string]$Group.GetAttribute('name'); $v=0L
     [void][long]::TryParse([string]$Group.GetAttribute('id'),[ref]$v)
-    if ($n -eq $ProjectName -or $n -eq $LegacyName -or $n -eq $LegacyCharProgression -or $v -eq $GroupId) { return $true }
+    if ($n -eq $ProjectName -or $n -eq $LegacyProjectName -or $n -eq $LegacyName -or $n -eq $LegacyCharProgression -or $v -eq $GroupId) { return $true }
     foreach ($cl in @($Group.SelectNodes('certificateClass'))) {
         $x=0L
         if ([long]::TryParse([string]$cl.GetAttribute('id'),[ref]$x) -and $x -ge $ClassMin -and $x -le $ClassMax) { return $true }
@@ -60,10 +61,10 @@ foreach ($g in @($xml.SelectNodes('/certificatesDatafile/certificateGroup'))) {
         [void]$g.ParentNode.RemoveChild($g)
     }
 }
-if ($removed.Count -eq 0) { Write-Host 'Nie znaleziono zainstalowanej grupy EvE Pilot Progression. Nic nie zmieniono.'; exit 0 }
+if ($removed.Count -eq 0) { Write-Host 'Nie znaleziono zainstalowanej grupy EVEMon Pilot Progression. Nic nie zmieniono.'; exit 0 }
 $stamp=Get-Date -Format 'yyyyMMdd-HHmmss'
-$backup="$CertificatesPath.backup-before-charprogression-uninstall-$stamp"
-$temp="$CertificatesPath.charprogression-uninstall-temp"
+$backup="$CertificatesPath.backup-before-evemon-pilot-progression-uninstall-$stamp"
+$temp="$CertificatesPath.evemon-pilot-progression-uninstall-temp"
 try {
     Write-GZipXml -Xml $xml -Path $temp
     [xml]$verify=Read-GZipText -Path $temp
@@ -71,7 +72,7 @@ try {
     Copy-Item -LiteralPath $CertificatesPath -Destination $backup -Force
     Copy-Item -LiteralPath $temp -Destination $CertificatesPath -Force
 } finally { if (Test-Path -LiteralPath $temp) { Remove-Item -LiteralPath $temp -Force -ErrorAction SilentlyContinue } }
-Write-Host 'Usunieto EvE Pilot Progression z lokalnego datafile certyfikatow.' -ForegroundColor Green
+Write-Host 'Usunieto EVEMon Pilot Progression z lokalnego datafile certyfikatow.' -ForegroundColor Green
 foreach ($x in $removed) { Write-Host "  - $x" }
 Write-Host "Backup: $backup"
 Write-Host 'Plik eve-skills NIE zostal zmieniony.'

@@ -10,4 +10,4 @@ No. If a required skill is missing, the installer stops and asks you to update E
 Run the installer again.
 
 ## Where do I report a problem?
-https://github.com/Blizbor/EvE-Pilot-Progression/issues
+https://github.com/Blizbor/EVEMon-Pilot-Progression/issues
